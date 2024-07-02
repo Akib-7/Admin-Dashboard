@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.button:disabled {
+  cursor: not-allowed;
+}

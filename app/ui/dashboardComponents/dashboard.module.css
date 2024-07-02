@@ -1,0 +1,31 @@
+.menu {
+  flex: 1;
+  padding: 15px;
+  background-color: var(--bgSoft);
+  height: max-content;
+}
+.content {
+  flex: 4;
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.leftContainer {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+.rightContainer {
+  flex: 1;
+}

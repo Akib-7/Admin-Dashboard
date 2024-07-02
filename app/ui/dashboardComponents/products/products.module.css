@@ -1,0 +1,60 @@
+.container {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addButton {
+  padding: 10px;
+  background-color: rgba(169, 169, 169, 0.419);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.table {
+  width: 100%;
+  margin-top: 10px;
+}
+.tableHeadings {
+  font-weight: bold;
+}
+
+.table td {
+  padding: 10px;
+}
+.product {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.productImage {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.actionButtons {
+  display: flex;
+  gap: 10px;
+}
+.button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--text);
+  border: none;
+  cursor: pointer;
+}
+.view {
+  background-color: teal;
+}
+.delete {
+  background-color: crimson;
+}
